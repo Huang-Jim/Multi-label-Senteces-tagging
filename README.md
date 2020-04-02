@@ -16,11 +16,11 @@ And the target labels contain: Background, Objectives, Methods, Results, Conclus
 **Basic trial** will give a baseline result (at least 0.67XX or above in public leaderboard).   
 **More trial** would only give a subtile progress (0.68XX or above)
 ### Basic trial
-+ Keras
 + Text mining skills (details are described below)
 + GloVe word embedding
 + The raw sentences (current sentence) with word embedding
 + The position of appearence of each label in a sentence (current sentence)
++ Bidirectional GRU implemented with Keras
 ### More trials
 + Basic features plus the features of previous/following sentences
 + Cosine similarity between each sentence and the title
