@@ -13,8 +13,8 @@ Please follow the feature description provided on competetion.
 And the target labels contain: Background, Objectives, Methods, Results, Conclusions and Others, totally 6 categories.
 
 ## Features / tools (simplified steps)
-**Basic trial** will give a quite good result (at least 0.67XX or above in public leaderboard).   
-**More trial** would only give a subtile progress (0.68XX)
+**Basic trial** will give a baseline result (at least 0.67XX or above in public leaderboard).   
+**More trial** would only give a subtile progress (0.68XX or above)
 ### Basic trial
 + Keras
 + Text mining skills (details are described below)
