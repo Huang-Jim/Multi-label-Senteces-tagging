@@ -12,13 +12,19 @@ The target is to predict the labels of each sentence in abstract of papers. Thes
 Please follow the feature description provided on competetion.  
 And the target labels contain: Background, Objectives, Methods, Results, Conclusions and Others, totally 6 categories.
 
-## Features and tools
+## Features / tools (simplified steps)
+**Basic trial** will give a quite good result (at least 0.67XX or above in public leaderboard).   
+**More trial** would only give a subtile progress (0.68XX)
 ### Basic trial
++ Keras
 + Text mining skills (details are described below)
 + GloVe word embedding
-+ The raw sentences (current sentence)
++ The raw sentences (current sentence) with word embedding
 + The position of appearence of each label in a sentence (current sentence)
-### Advanced trial
+### More trials
 + Basic features plus the features of previous/following sentences
++ Cosine similarity between each sentence and the title
 
-##
+## Overall steps (detailed steps)
+### Preprocessing
+
