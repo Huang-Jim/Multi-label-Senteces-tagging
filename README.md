@@ -6,7 +6,7 @@ If you have resources for BERT or ELMO, please see [our team leader's repo](http
 ## Rule
 The target is to predict the labels of each sentence in abstract of papers. These papers come from different domains published in arXiv. And each sentence might have one or more labels, which is a multi-label classification problem.
 ## Data description
-Please follow the feature description provided on competetion.
+Please follow the feature description provided on competetion.  
 And the target labels contain: Background, Objectives, Methods, Results, Conclusions and Others, totally 6 categories.
 ## Features
 + The raw sentences
