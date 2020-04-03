@@ -6,7 +6,10 @@ We, as a team, each member had his/her own models. My model **did not** use BERT
 If you have resources for BERT or ELMO, please see [our team leader's repo](https://github.com/eugeneALU/Text-Classification).
 
 ## Rule
+### Target
 The target is to predict the labels of each sentence in abstract of papers. These papers come from different domains published in arXiv. And each sentence might have one or more labels, which is a multi-label classification problem.
+### Evaluation Metric
+Micro F1 score
 
 ## Data description
 Please follow the feature description provided on competetion.  
