@@ -28,4 +28,10 @@ And the target labels contain: Background, Objectives, Methods, Results, Conclus
 ## Overall steps (detailed steps)
 ### Preprocessing
 There are 3 steps in ```preprocessing.py```. You can see the details in code comments.   
-One thing our team found is that **do not** remove stop words and **do not** do stemming can get a better result in this competetion.
+One thing our team found is that **do not** remove stop words and **do not** do stemming can get a better result in this competetion.  
+After runnung ```preprocessing.py```, you will get ```after_preprocess_train.csv``` and ```after_preprocess_test.csv``` for training and testing afterwards. 
+
+### Training
+
+
+### Testing
