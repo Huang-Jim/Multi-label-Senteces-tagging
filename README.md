@@ -26,6 +26,9 @@ And the target labels contain: Background, Objectives, Methods, Results, Conclus
 + Bidirectional GRU implemented with Keras
 ### More trials
 + Basic features plus the features of previous/following sentences
++ Number of sentences in an abstract
++ Number of words in sentences
++ Number of Captal terms in sentences
 + Cosine similarity between each sentence and the title
 
 ## Overall steps (detailed steps)
@@ -34,7 +37,10 @@ There are 3 steps in ```preprocessing.py```. You can see the details in code com
 One thing our team found is that **do not** remove stop words and **do not** do stemming can get a better result in this competetion.  
 After runnung ```preprocessing.py```, you will get ```after_preprocess_train.csv``` and ```after_preprocess_test.csv``` for training and testing afterwards. 
 
-### Training
+### Training / Validation / Testing
+See ```train_val_test.py```. Due to some reasons, I do not write them as modules (I am sorry about this).   
+The above part of codes are for training/validation and the bottom part of codes are for testing.   
+The models used in train/val and testing are the same (Sorry again not written as moudules)
 
-
-### Testing
+### Models
+![Model structure](./model.png)
